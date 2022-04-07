@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Lexend+Deca&display=swap');
+
+
+
+*{margin: 0%;
+  padding: 0%;
+  font-size: 15px;
+  font-family: 'Big Shoulders Display',cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  
+  
+}
+
+
+
+.colum{
+    margin: auto;
+    padding: 5%;  
+    display:grid;
+    grid-template-columns: repeat(3,20%);
+    width: auto;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    min-width: 750px;
+
+
+   
+}
+.box1{
+    padding: 25% 15% 0% 15%;
+    background-color: hsl(31, 77%, 52%);
+    width: auto;
+    max-height: 550px;
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+
+    
+    
+}
+
+
+
+.box1 h1{
+    font-size: xx-large;
+    padding: 10px 0px 0px 0px;
+}
+
+.box1 p{
+    padding: 20% 0px 0px 0px;
+}
+
+
+.box2{
+    padding: 25% 15% 0% 15%;
+    background-color: hsl(184, 100%, 22%);
+    width: auto;
+    max-height: 550px;
+    color: white;
+    
+}
+
+.box2 h1{
+    font-size: xx-large;
+    padding: 10px 0px 0px 0px;
+}
+
+.box2 p{
+    padding: 20% 0px 0px 0px;
+}
+
+.box3{
+    padding: 25% 15% 0% 15%;
+    background-color: hsl(179, 100%, 13%);
+    width: auto;
+    max-height: 550px;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    
+}
+
+.box3 h1{
+    font-size: xx-large;
+    padding: 10px 0px 0px 0px;
+}
+
+.box3 p{
+    padding: 20% 0px 0px 0px;
+}
+.button1{background-color: #ffffff;
+    border: none;
+    border-radius: 25px 25px 25px 25px ;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 32px;
+    margin: 170px 2px;
+
+
+}
+.button2{background-color: #ffffff;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    color: hsl(184, 100%, 22%);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 170px 2px;
+    cursor: pointer;
+}
+.button3{background-color: #ffffff;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    color: hsl(179, 100%, 13%);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 170px 2px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:960px){
+    .colum{
+        width: 375px;
+        flex-direction:column;
+        height:auto;
+    }
+    
+}
