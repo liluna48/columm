@@ -8,9 +8,9 @@
   font-size: 15px;
   font-family: 'Big Shoulders Display',cursive;
   font-family: 'Lexend Deca', sans-serif;
-  
-  
-}
+  }
+
+
 
 
 
@@ -49,7 +49,7 @@
 }
 
 .box1 p{
-    padding: 20% 0px 0px 0px;
+    padding: 20% 0px 50px 0px;
 }
 
 
@@ -68,7 +68,7 @@
 }
 
 .box2 p{
-    padding: 20% 0px 0px 0px;
+    padding: 20% 0px 50px 0px;
 }
 
 .box3{
@@ -87,9 +87,11 @@
 }
 
 .box3 p{
-    padding: 20% 0px 0px 0px;
+    padding: 20% 0px 50px 0px;
 }
-.button1{background-color: #ffffff;
+
+.bottom{
+		background-color: #ffffff;
     border: none;
     border-radius: 25px 25px 25px 25px ;
     color: hsl(31, 77%, 52%);
@@ -100,36 +102,9 @@
     cursor: pointer;
     display: inline-block;
     padding: 15px 32px;
-    margin: 170px 2px;
+    margin: 15% 10% ;
+}
 
-
-}
-.button2{background-color: #ffffff;
-    border: none;
-    border-radius: 25px 25px 25px 25px;
-    color: hsl(184, 100%, 22%);
-    padding: 15px 32px;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 170px 2px;
-    cursor: pointer;
-}
-.button3{background-color: #ffffff;
-    border: none;
-    border-radius: 25px 25px 25px 25px;
-    color: hsl(179, 100%, 13%);
-    padding: 15px 32px;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 170px 2px;
-    cursor: pointer;
-}
 
 @media only screen and (max-width:960px){
     .colum{
