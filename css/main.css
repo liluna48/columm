@@ -1,98 +1,153 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Lexend+Deca&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-* {
-	margin: 0%;
-	padding: 0%;
-	font-size: 15px;
-	font-family: "Big Shoulders Display", cursive;
-	font-family: "Lexend Deca", sans-serif;
+
+*{margin: 0%;
+  padding: 0%;
+  font-size: 15px;
+  font-family: 'Big Shoulders Display', cursive;
+  
+ 
+  
 }
 
-.colum {
-	margin: auto;
-	padding: 5%;
-	display: grid;
-	grid-template-columns: repeat(3, 20%);
-	width: auto;
-	height: 750px;
-	justify-content: center;
-	align-items: center;
-	max-width: 1440px;
-	min-width: 750px;
+
+
+.colum{
+    margin: auto;
+    padding: 5%;  
+    display:grid;
+    grid-template-columns: repeat(3,20%);
+    width: auto;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    min-width: 750px;
+
+
+   
 }
-.box1 {
-	padding: 25% 15% 0% 15%;
+.box1{
+    padding: 25% 15% 0% 15%;
 	background-color: hsl(31, 77%, 52%);
 	width: auto;
 	max-width: 250px;
 	min-height: 550px;
-	border-radius: 20px 0px 0px 20px;
+	border-radius: 5px 0px 0px 5px;
 	color: white;
+    
+    
 }
 
-.box1 h1 {
-	font-size: xx-large;
-	padding: 10px 0px 0px 0px;
+
+
+.box1 h1{
+    font-size: xx-large;
+    padding: 10px 0px 0px 0px;
 }
 
-.box1 p {
-	padding: 20% 0px 50px 0px;
+.box1 p{
+    padding: 20% 0px 0px 0px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.box2 {
-	padding: 25% 15% 0% 15%;
+
+.box2{
+    padding: 25% 15% 0% 15%;
 	background-color: hsl(184, 100%, 22%);
 	width: auto;
 	max-width: 250px;
 	min-height: 550px;
 
 	color: white;
+    
 }
 
-.box2 h1 {
-	font-size: xx-large;
-	padding: 10px 0px 0px 0px;
+.box2 h1{
+    font-size: xx-large;
+    padding: 10px 0px 0px 0px;
 }
 
-.box2 p {
-	padding: 20% 0px 50px 0px;
+.box2 p{
+    padding: 20% 0px 0px 0px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.box3 {
-	padding: 25% 15% 0% 15%;
+.box3{
+    padding: 25% 15% 0% 15%;
 	background-color: hsl(179, 100%, 13%);
 	width: auto;
 	max-width: 250px;
 	min-height: 550px;
-	border-radius: 0px 20px 20px 0px;
+	border-radius: 0px 5px 5px 0px;
 	color: white;
+    
 }
 
-.box3 h1 {
-	font-size: xx-large;
-	padding: 10px 0px 0px 0px;
+.box3 h1{
+    font-size: xx-large;
+    padding: 10px 0px 0px 0px;
 }
 
-.box3 p {
-	padding: 20% 0px 50px 0px;
+.box3 p{
+    padding: 20% 0px 0px 0px;
+    font-family: 'Lexend Deca', sans-serif;
 }
-
-.bottom {
-	background-color: #ffffff;
-	border: none;
-	border-radius: 25px 25px 25px 25px;
-	color: hsl(31, 77%, 52%);
-	text-align: center;
-	font-weight: bold;
-	text-decoration: none;
-	font-size: 16px;
-	cursor: pointer;
-	display: inline-block;
-	padding: 15px 32px;
+.button1{background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px 25px 25px 25px ;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 32px;
 	margin: 75% 10% 10% 10%;
+    font-family: 'Lexend Deca', sans-serif;
+
+
+}
+.button2{background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    color: hsl(184, 100%, 22%);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 32px;
+	margin: 75% 10% 10% 10%;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.button3{background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    color: hsl(179, 100%, 13%);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 32px;
+	margin: 75% 10% 10% 10%;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
+@media only screen and (max-width:960px){
+    .colum{
+        width: 375px;
+        flex-direction:column;
+        height:auto;
+    }
+    
 }
 
 @media (max-width: 600px) {
