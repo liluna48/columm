@@ -25,6 +25,7 @@
 	padding: 25% 15% 0% 15%;
 	background-color: hsl(31, 77%, 52%);
 	width: auto;
+	max-width: 250px;
 	min-height: 550px;
 	border-radius: 20px 0px 0px 20px;
 	color: white;
@@ -43,8 +44,9 @@
 	padding: 25% 15% 0% 15%;
 	background-color: hsl(184, 100%, 22%);
 	width: auto;
+	max-width: 250px;
 	min-height: 550px;
-	
+
 	color: white;
 }
 
@@ -61,6 +63,7 @@
 	padding: 25% 15% 0% 15%;
 	background-color: hsl(179, 100%, 13%);
 	width: auto;
+	max-width: 250px;
 	min-height: 550px;
 	border-radius: 0px 20px 20px 0px;
 	color: white;
@@ -88,18 +91,44 @@
 	display: inline-block;
 	padding: 15px 32px;
 	margin: 75% 10% 10% 10%;
-	
-	
 }
 
-@media only screen and (max-width: 960px) {
+}
+
+@media (max-width: 600px) {
 	.colum {
-		width: 375px;
-		flex-direction: column;
-		height: auto;
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"box1"
+			"box2"
+			"box3";
 	}
-	
-	.box{
-		
+	.box1 {
+		margin:0;
+		padding: 5%;
+		background-color: hsl(31, 77%, 52%);
+		width: auto;
+		max-width: 250px;
+		min-height: 550px;
+		border-radius: 0px 0px 0px 0px;
+		color: white;
+	}
+	.box2 {
+		margin:0;
+		padding: 5%;
+		background-color: hsl(184, 100%, 22%);
+		width: auto;
+		max-width: 250px;
+		min-height: 550px;
+	}
+	.box3 {
+		margin:0;
+		padding: 5%;
+		background-color: hsl(179, 100%, 13%);
+		width: auto;
+		max-width: 250px;
+		min-height: 550px;
+		border-radius: 0px 0px 0px 0px;
+		color: white;
 	}
 }
