@@ -121,7 +121,7 @@
 @media (max-width: 600px) {
 	.colum {
 		flex-direction: column;
-		margin: 650px auto ;
+		margin: 400px auto ;
 		
 	}
 	.box1 {
@@ -130,7 +130,7 @@
 		background-color: hsl(31, 77%, 52%);
 		width: auto;
 		max-width: 250px;
-		min-height: 550px;
+		min-height: 400px;
 		border-radius: 0px 0px 0px 0px;
 		color: white;
 		
@@ -141,7 +141,7 @@
 		background-color: hsl(184, 100%, 22%);
 		width: auto;
 		max-width: 250px;
-		min-height: 550px;
+		min-height: 400px;
 	}
 	.box3 {
 		margin: auto;
@@ -149,9 +149,14 @@
 		background-color: hsl(179, 100%, 13%);
 		width: auto;
 		max-width: 250px;
-		min-height: 550px;
+		min-height: 400px;
 		border-radius: 0px 0px 0px 0px;
 		color: white;
 	}
-
+	.button1{margin:35% 5% 0% 20% ;
+	}
+	.button2{margin:35% 5% 0% 20% ;
+	}
+	.button3{margin:35% 5% 0% 20% ;
+	}
 }
